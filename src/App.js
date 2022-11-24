@@ -1,6 +1,8 @@
+import { Navbar } from "./navbar";
+
 
 function App() {
-  return null
+  return <Navbar />
 }
 
 export default App;
