@@ -2,6 +2,7 @@ import { Navbar } from "./navbar";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
 import Home from "./pages/Home";
+import Signin from "./pages/Signin";
 
 
 function App() {
@@ -16,13 +17,30 @@ function App() {
     case "/contact":
       Component=Contact
       break
+    case "/Signin":
+      Component= Signin
   }
-  return (
-  <>
-    <Navbar />
-    <Component/>
-  </>
-  )
+  if (Component==Signin){
+    return (
+      <>
+        <div className="container">
+        <Component/>
+        </div>
+      </>
+      )
+    }
+  else{
+    return (
+      <>
+        <Navbar />
+        <div className="container">
+        <Component/>
+        </div>
+      </>
+      )
+
+  }
+
 }
 
 export default App;
