@@ -3,6 +3,11 @@ import React from "react"
 
 function Signin(){
     return(
+        <body>
+
+        <div className= "back">
+        <a href="/">   X</a>
+        </div>
         <div className="signin">
         <form>
         <label for="fname">First name:</label><br></br>
@@ -11,6 +16,8 @@ function Signin(){
         <input type="text" id="lname" name="lname"></input>
         </form>
         </div>
+
+        </body>
     ); 
 }
 
