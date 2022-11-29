@@ -12,6 +12,7 @@ function App() {
       break
     case "/pricing":
       Component=Pricing
+      //test
       break
     case "/contact":
       Component=Contact
