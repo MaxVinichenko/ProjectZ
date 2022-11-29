@@ -1,3 +1,4 @@
+
 export function Navbar(){
     return <nav className="nav">
         <a href="/" className="site-tite">Rental App</a>
@@ -14,7 +15,12 @@ export function Navbar(){
                 <a href="/contact">Contact</a>
             </li>
 
+            <li>
+                <a href="/Signin">Sign In</a>
+            </li>
+
         </ul>
     </nav>
 
 }
+ 
