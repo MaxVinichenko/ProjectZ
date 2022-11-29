@@ -44,6 +44,13 @@ body{
 .nav li.active{
     background-color: rgb(184, 179, 179);
 }
+/*UI for signin menue*/
+.signin {
+    background-color: rgb(172, 187, 182) ;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
 
 
 
