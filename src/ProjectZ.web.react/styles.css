@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.site-tite{
+    font-size:2rem;
+}
+
+/*General styling*/
+
+h1{
+    font-size: 6rem;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: 700;
+    color: rgb(41, 40, 40);
+}
+
+.heroText{
+    font-size: 2rem;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: 700;
+    color: rgb(41, 40, 40);
+}
+
+
+
+
+
+/*Code for the nav bar: */
+.nav{
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+
+}
+
+.nav li:hover{
+    background-color: rgb(184, 179, 179);
+}
+
+.nav li.active{
+    background-color: rgb(184, 179, 179);
+}
+/*UI for signin menue*/
+.signin {
+    background-color: rgb(172, 187, 182) ;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/*Code for the home page, HERO SECTION:*/
+
+.heroSection{
+    background: url(images/houses.jpg) center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.heroTextDiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.363);
+
+}
+
