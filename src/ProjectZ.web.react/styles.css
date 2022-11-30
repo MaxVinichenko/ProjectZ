@@ -11,11 +11,15 @@ body{
 }
 
 /*General styling*/
+
 .container{
-display: flex;
-flex-direction: row;
-font-size: medium;
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
 }
+
 h1{
     font-size: 6rem;
     font-family: Helvetica, sans-serif, Arial;
@@ -102,10 +106,13 @@ h1{
 
 /*for contact css*/
 .svghouse{
-height: 100%;
-width: 100%;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
 }
 
 
