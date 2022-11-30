@@ -1,4 +1,4 @@
-import { Navbar } from "./navbar";
+import { Navbar } from "./components/navbar";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
 import Home from "./pages/Home";
@@ -20,7 +20,7 @@ function App() {
     case "/Signin":
       Component= Signin
   }
-  if (Component==Signin){
+  if (Component===Signin){
     return (
       <>
         <div className="container">
