@@ -114,6 +114,33 @@ h1{
     align-items: center;
     margin-right: 2rem;
 }
+/*for the button submit*/
+.submit{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 
+}
+.submit:hover{
+    background-color: #04aa6d93;
+}
 
-    
+.overallcontact{
+    padding: 0.3rem;
+    flex-direction: column;
+    width: 100%
+}
+
+.textbar{
+    width: 100%;
+    display:flex;
+    resize: none;
+    padding: 0.5rem;
+    font: Sans-serif;
+    font-weight: bold;
+}
