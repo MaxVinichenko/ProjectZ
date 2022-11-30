@@ -12,7 +12,7 @@ export default function Home(){
         
         
         
-        <image src="/images/sky.jpg"></image>
+        
 
     </div>
     
