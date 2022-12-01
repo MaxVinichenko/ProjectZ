@@ -25,7 +25,7 @@ export default function Contact(){
         <div class="form-group">
           <textarea placeholder="Your Message" className="textbar"  rows="10" required></textarea>
         </div>
-        <button type="submit" className="submit">Submit Form</button>
+        <button type="submit" className="submit-btn">Submit Form</button>
     </form>
   </div>
 </div>

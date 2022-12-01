@@ -12,6 +12,10 @@ body{
 
 /*General styling*/
 
+a{
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -115,7 +119,7 @@ h1{
     margin-right: 2rem;
 }
 /*for the button submit*/
-.submit{
+.submit-btn{
     display: block;
     width: 100%;
     border: none;
@@ -124,9 +128,9 @@ h1{
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-
+    
 }
-.submit:hover{
+.submit-btn:hover{
     background-color: #04aa6d93;
 }
 
@@ -135,7 +139,7 @@ h1{
     flex-direction: column;
     width: 100%
 }
-
+/* the box you put text in*/
 .textbar{
     width: 100%;
     display:flex;
@@ -143,4 +147,21 @@ h1{
     padding: 0.5rem;
     font: Sans-serif;
     font-weight: bold;
+}
+
+/*THE signin CSS*/
+.X-btn{
+    position: absolute;
+    background-color: #504f4f;
+    border-radius: 5%;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    
+}
+
+.X-letter{
+    color: rgb(179, 6, 6);
 }

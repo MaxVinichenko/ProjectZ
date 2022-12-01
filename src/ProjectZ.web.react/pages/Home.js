@@ -10,11 +10,6 @@ export default function Home(){
             <p className="heroText">Tired of filling out many different rental app forms? Fill one form out on our webste, and never fill another form again! </p>
         </div>
         
-        
-        
-        
-        
-
     </div>
     
     
