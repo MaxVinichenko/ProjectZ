@@ -10,21 +10,11 @@ export default function Contact(){
     <h1>Contact Us</h1>
      
   </div>
-  <div className="overallcontact">
-    <form  target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
-        <div class="form-group">
-          <div class="form-row">
-            <div className="col">
-              <input type="text" className="textbar" placeholder="Full Name" required/>
-            </div>
-            <div className="col">
-              <input type="email" className="textbar" placeholder="Email Address" required/>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea placeholder="Your Message" className="textbar"  rows="10" required></textarea>
-        </div>
+  <div className="container">
+    <form  target="_blank" action="https://formsubmit.co/your@email.com" method="POST">   
+        <input type="text" className="textbar" placeholder="Full Name" required/> 
+        <input type="email" className="textbar" placeholder="Email Address" required/>
+        <textarea placeholder="Your Message" className="textbar"  rows="10" required></textarea>
         <button type="submit" className="submit-btn">Submit Form</button>
     </form>
   </div>

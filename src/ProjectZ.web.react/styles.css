@@ -22,6 +22,7 @@ a{
     font-size: medium;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 h1{
@@ -80,12 +81,7 @@ h1{
     background-color: rgb(184, 179, 179);
 }
 /*UI for signin menue*/
-.signin {
-    background-color: white ;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-}
+
 
 
 /*Code for the home page, HERO SECTION:*/
@@ -134,19 +130,20 @@ h1{
     background-color: #04aa6d93;
 }
 
-.overallcontact{
-    padding: 0.3rem;
-    flex-direction: column;
-    width: 100%
-}
+
 /* the box you put text in*/
 .textbar{
-    width: 100%;
+    width: 50vw;
     display:flex;
     resize: none;
     padding: 0.5rem;
     font: Sans-serif;
     font-weight: bold;
+
+}
+
+.signin-bar{
+    width: 20vw;
 }
 
 /*THE signin CSS*/
@@ -164,4 +161,17 @@ h1{
 
 .X-letter{
     color: rgb(179, 6, 6);
+}
+
+.border{
+    border-style: solid;
+    border-color: black;
+    padding: 3rem;
+    padding-right: 3rem;
+    padding-left: 4rem;
+    border-width: 0.1rem;
+}
+
+.box{
+    margin-top: 20vh;
 }
