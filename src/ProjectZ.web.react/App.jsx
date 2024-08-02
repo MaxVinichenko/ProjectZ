@@ -1,48 +1,28 @@
-import { Navbar } from "./components/navbar";
-import Contact from "./pages/Contact";
-import Pricing from "./pages/Pricing";
-import Home from "./pages/Home";
-import Signin from "./pages/Signin";
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Navbar } from './components/Navbar'; // Ensure this matches the actual file name and case
+import Contact from './pages/Contact';
+import Pricing from './pages/Pricing';
+import Home from './pages/Home';
+import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 
 function App() {
-  let Component
-  switch (window.location.pathname){
-    case "/":
-      Component=Home
-      break
-    case "/pricing":
-      Component=Pricing
-      break
-    case "/contact":
-      Component=Contact
-      break
-    case "/Signin":
-      Component= Signin
-  }
-  if (Component===Signin){
-    return (
-      <>
-        <div className="container">
-        <Component/>
-        </div>
-      </>
-      )
-    }
-  else{
-    return (
-      <>
-        <Navbar />
-        <div className="container">
-        <Component/>
-        </div>
-  
-      </>
-      )
-
-  }
-
+  return (
+    <Router>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="*" element={<Home />} /> {/* Fallback to Home */}
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
- 
